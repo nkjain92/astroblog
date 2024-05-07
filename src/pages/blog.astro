@@ -1,5 +1,5 @@
 ---
-
+const pageTitle = "My Astro Learning Blog"
 ---
 
 <html lang="en">
@@ -8,17 +8,18 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>{pageTitle}</title>
 	</head>
 	<body>
     <a href="/">Home</a>
     <a href="/about/">About</a>
     <a href="/blog/">Blog</a>
-    <h1>Blog Page</h1>
-    <h2>This is where I'll put all my thoughts</h2>
-
-    <p>The first blog will be on why I am learning how to code?</p>
-
-    <p>The second one will be on the importance of design, UI, UX in the new AI projects age</p>
+    <h1>{pageTitle}</h1>
+    <p>This is where I will post about my journey learning Astro.</p>
+    <ul>
+      <li><a href="/posts/post-1/">Post 1</a></li>
+      <li><a href="/posts/post-2/">Post 2</a></li>
+      <li><a href="/posts/post-3/">Post 3</a></li>
+    </ul>
 	</body>
 </html>

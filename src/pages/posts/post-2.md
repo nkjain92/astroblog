@@ -1,5 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
+title: Astro is exciting!
 author: Astro Learner
 description: "After learning some Astro, I couldn't stop!"
 image:
